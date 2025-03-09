@@ -1,0 +1,35 @@
+{
+  "name": "recipe-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "github:push": "node scripts/github-push.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.0",
+    "@supabase/supabase-js": "^2.39.7",
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.344.0",
+    "openai": "^4.28.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-router-dom": "^6.22.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "terser": "^5.27.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2"
+  }
+}
