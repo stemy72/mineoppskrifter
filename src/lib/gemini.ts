@@ -3,7 +3,6 @@ import { getEnv, hasEnv } from './env';
 
 const apiKey = getEnv('VITE_GOOGLE_API_KEY');
 
-
 // Initialize Gemini AI model once
 let model: any = null;
 
